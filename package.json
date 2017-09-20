@@ -1,0 +1,25 @@
+{
+  "name": "not-empty",
+  "version": "1.0.0",
+  "description": "Pythonic non empty comparation",
+  "main": "./dist/not-empty.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "node_modules/webpack/bin/webpack.js",
+    "test": "nyc ./node_modules/mocha/bin/mocha --timeout=3000"
+  },
+  "author": "Sergey Dostovalov",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "nyc": "^11.2.1",
+    "ts-loader": "^2.3.7",
+    "tslint": "^5.7.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.2",
+    "uglify-js": "^3.1.1",
+    "uglify-js2": "^2.1.11",
+    "webpack": "^3.6.0"
+  }
+}

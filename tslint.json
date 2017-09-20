@@ -1,0 +1,9 @@
+{
+    "rules": {
+			"indent": ["error", 2],
+      "ordered-imports": false,
+      "no-console": [false],
+      "object-literal-sort-keys": false,
+      "member-ordering": [true, { "order": "instance-sandwich" }]
+    }
+}
